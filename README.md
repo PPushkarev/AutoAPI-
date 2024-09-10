@@ -1,5 +1,5 @@
 
-Automatition API testing 
+Automatition POM API testing 
 
 Testing of API REST Base 
 https://restful-api.dev/ 
