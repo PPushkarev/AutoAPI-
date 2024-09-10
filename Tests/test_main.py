@@ -1,6 +1,7 @@
 # Testing of API https://restful-api.dev/ Get, Put, Delete,
 # set PYTHONPATH=C:\Users\User\PycharmProjects\pythonProject5\Endpoints
 import pytest
+
 from Endpoints.conftest import id_obj
 from Endpoints.create_object import CreateObject
 from Endpoints.get_object import GetObject
