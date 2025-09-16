@@ -3,10 +3,10 @@ name: CI Tests
 on:
   push:
     branches:
-      - "**"   # запускать при любом push
+      - main   # запускать при пуше в main
   pull_request:
     branches:
-      - "**"
+      - main   # запускать для PR в main
 
 jobs:
   test:
