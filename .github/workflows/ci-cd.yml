@@ -53,12 +53,11 @@ jobs:
           name: allure-report
           path: allure-report
 
-      # 8. Деплоим Allure на GitHub Pages
       - name: Deploy Allure Report to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./allure-report
           publish_branch: gh-pages
+          keep_files: true       # сохраняет файлы, если есть старые
           allow_empty_commit: true
-          force_orphan: true
